@@ -9,6 +9,12 @@ $shit-pink2: #ff4d79;
 
 body {
 	background: $cream !important;
+	
+	h1, h2, h3, h4, h5, p {
+		font-family: "montserratbold";
+	}
+	
+	.navbar-expand-lg .navbar-nav .nav-link {}
 }
 
 .navbar {
