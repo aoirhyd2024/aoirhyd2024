@@ -631,8 +631,9 @@ a.back-to-top:focus {
 .navbar-expand-lg .navbar-toggler {
   background: transparent;
   border: 1px solid #a07777;
-/*   background-image: linear-gradient(65deg, #ff4d79 0, #ff809f 100%);
- */  -webkit-background-clip: text;
+  /*   background-image: linear-gradient(65deg, #ff4d79 0, #ff809f 100%);
+ */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   border-radius: 4px;
@@ -692,7 +693,7 @@ a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-/*   background-image: linear-gradient(65deg, #ff4d79 0, #ff809f 100%);
+  /*   background-image: linear-gradient(65deg, #ff4d79 0, #ff809f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -701,7 +702,7 @@ a.back-to-top:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link:focus,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-/*   background-image: linear-gradient(65deg, #ff4d79 0, #ff809f 100%);
+  /*   background-image: linear-gradient(65deg, #ff4d79 0, #ff809f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text !important; */
@@ -2173,6 +2174,19 @@ footer {
   margin-bottom: 30px;
   margin: 0 auto;
   width: 100%;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust the space between logos */
+  /* background-color: white; */
+  padding: 20px;
+}
+
+.logo {
+  height: 150px; /* Adjust the size as needed */
+  /* transition: opacity 0.3s ease; */
 }
 
 .footer-logo {
