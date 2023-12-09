@@ -2,35 +2,35 @@
 
 @font-face {
     font-family: 'montserratxbold';
-    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-ExtraBold') format('truetype');
+    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-ExtraBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratbold';
-    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-Bold') format('truetype');
+    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratsbold';
-    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-SemiBold') format('truetype');
+    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratmed';
-    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-Medium') format('truetype');
+    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratreg';
-    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-Regular') format('truetype');
+    src: url('https://aoirhyd2024.github.io/assets/fonts/montserrat/static/Montserrat-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
