@@ -3,18 +3,67 @@ $maroon: #4f0505;
 $brick-red: #763131;
 $dusty-rose: #a07777;
 $cream: #f9d4af;
+$floral-white: #FFF8F0;
 
 $shit-pink: #ff4a67;
 $shit-pink2: #ff4d79;
 
 body {
-	background: $cream !important;
+	background: $floral-white !important;
 	
-	h1, h2, h3, h4, h5, p {
+	.aoir-logo {
+	
+		padding: 0 0 0 5rem;
+	
+		.aoir-img {
+			height: 11rem;
+			float: left; 
+		}
+		
+		.aoir-text-container {
+			padding: 1.2rem 0 0 0;
+		}
+		
+		h2 {
+			padding: 0;
+			margin: 0;
+			text-align: left;
+			font-family: "montserratreg";
+			text-transform: uppercase;
+			font-size: 2rem;
+		}
+	}
+	
+	.main-titles{
+		h1, h2, h3, h4, h5 {
+			color: $floral-white;
+		}
+	}
+
+	h1, h2, h3, h4, h5 {
+		text-align: center;
+		color: $maroon;
+	}
+	
+	h1, h2 {
+		font-family: "montserratxbold";
+		text-transform: none;
+		padding-bottom: 1rem;
+	}
+	
+	h3, h4 {
 		font-family: "montserratbold";
 	}
 	
+	h5, p, li {
+		font-family: "montserratreg";
+	}
+	
 	.navbar-expand-lg .navbar-nav .nav-link {}
+	
+	.col-md-12 {
+		padding: 0 1.5rem 0 1.5rem;
+	}
 }
 
 .navbar {
@@ -31,4 +80,8 @@ body {
 
 .head-title {
 	padding-top: 2rem;
+}
+
+.OrganizedBy .logo {
+	padding: 0 2rem 0 2rem;
 }
