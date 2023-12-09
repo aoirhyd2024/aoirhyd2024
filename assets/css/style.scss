@@ -1,3 +1,28 @@
+$blue: #313270;
+$maroon: #4f0505;
+$brick-red: #763131;
+$dusty-rose: #a07777;
+$cream: #f9d4af;
+
+$shit-pink: #ff4a67;
+$shit-pink2: #ff4d79;
+
 body {
-	background: red !important;
+	background: $cream !important;
+}
+
+.navbar {
+	height: 8rem;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+	color: $maroon;
+	
+	&:hover {
+		color: $dusty-rose; 
+	}
+}
+
+.head-title {
+	padding-top: 2rem;
 }
