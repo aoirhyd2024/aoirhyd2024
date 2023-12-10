@@ -14,6 +14,12 @@ body {
       font-family: "montserratreg";
       text-transform: uppercase;
       font-size: 2rem; }
+  body .main-titles h3 {
+    font-size: 3rem; }
+  body .main-titles h4 {
+    font-size: 2rem; }
+  body .main-titles h5 {
+    font-size: 1.5rem; }
   body .main-titles h1, body .main-titles h2, body .main-titles h3, body .main-titles h4, body .main-titles h5 {
     color: #FFF8F0; }
   body h1, body h2, body h3, body h4, body h5 {
@@ -27,8 +33,19 @@ body {
     font-family: "montserratbold"; }
   body h5, body p, body li {
     font-family: "montserratreg"; }
+  body p {
+    font-size: 1rem; }
   body .col-md-12 {
     padding: 0 1.5rem 0 1.5rem; }
+  body .notebook {
+    background: white;
+    padding: 3rem; }
+    body .notebook ul {
+      padding-left: 1rem; }
+      body .notebook ul li {
+        list-style: circle; }
+    body .notebook h5 {
+      text-align: left; }
 
 .navbar {
   height: 8rem; }
