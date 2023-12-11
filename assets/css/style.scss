@@ -8,7 +8,7 @@ $floral-white: #FFF8F0;
 $shit-pink: #ff4a67;
 $shit-pink2: #ff4d79;
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	body {
 	
 		p, li {
@@ -58,7 +58,7 @@ body {
 		padding: 0 0 0 5rem;
 	
 		.aoir-img {
-			height: 11rem;
+			height: 9rem;
 			float: left; 
 		}
 		
@@ -117,9 +117,7 @@ body {
 	p {
 		font-size: 1rem;
 	}
-	
-	.navbar-expand-lg .navbar-nav .nav-link {}
-	
+		
 	.col-md-12 {
 		padding: 0 1.5rem 0 1.5rem;
 	}
@@ -143,7 +141,7 @@ body {
 }
 
 .navbar {
-	height: 8rem;
+	height: auto;
 }
 
 .navbar-collapse .navbar-nav .nav-link {
@@ -160,8 +158,15 @@ body {
 
 .OrganizedBy .logo {
 	padding: 0 2rem 0 2rem;
+	width: auto;
+	height: 10rem;
 }
 
 .form-link {
 	display: none;
+}
+
+section#contact {
+	text-align: center;
+	margin-bottom: 2rem;
 }

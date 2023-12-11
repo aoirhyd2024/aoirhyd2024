@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   body p, body li {
     font-size: 0.8rem !important; }
   body .navbar {
@@ -24,7 +24,7 @@ body {
   body .aoir-logo {
     padding: 0 0 0 5rem; }
     body .aoir-logo .aoir-img {
-      height: 11rem;
+      height: 9rem;
       float: left; }
     body .aoir-logo .aoir-text-container {
       padding: 1.2rem 0 0 0; }
@@ -69,7 +69,7 @@ body {
       text-align: left; }
 
 .navbar {
-  height: 8rem; }
+  height: auto; }
 
 .navbar-collapse .navbar-nav .nav-link {
   color: #4f0505; }
@@ -80,7 +80,13 @@ body {
   padding-top: 2rem; }
 
 .OrganizedBy .logo {
-  padding: 0 2rem 0 2rem; }
+  padding: 0 2rem 0 2rem;
+  width: auto;
+  height: 10rem; }
 
 .form-link {
   display: none; }
+
+section#contact {
+  text-align: center;
+  margin-bottom: 2rem; }
