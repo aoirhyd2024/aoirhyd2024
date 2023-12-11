@@ -1,3 +1,24 @@
+@media screen and (max-width: 600px) {
+  body p, body li {
+    font-size: 0.8rem !important; }
+  body .navbar {
+    height: auto; }
+  body .aoir-logo .aoir-img {
+    height: auto !important;
+    width: 80%; }
+  body .OrganizedBy .logos {
+    width: 100%;
+    display: block;
+    text-align: center; }
+  body .OrganizedBy .logo {
+    height: 6rem;
+    margin-bottom: 2rem; }
+  .form-iframe {
+    display: none; }
+  .form-link {
+    display: block !important;
+    margin-bottom: 2rem; } }
+
 body {
   background: #FFF8F0 !important; }
   body .aoir-logo {
@@ -60,3 +81,6 @@ body {
 
 .OrganizedBy .logo {
   padding: 0 2rem 0 2rem; }
+
+.form-link {
+  display: none; }
