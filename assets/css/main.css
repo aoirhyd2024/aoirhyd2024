@@ -710,6 +710,21 @@ a.back-to-top:focus {
   background-clip: text !important; */
 }
 
+.logos img {
+  /* Set width to auto and height to a proportion of the viewport width */
+  width: auto;
+  height: 20vw; /* Adjust as needed, this sets the height relative to the width of the viewport */
+  /* Smooth transition for resizing */
+  transition: height 0.1s ease, width 0.1s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .logos img {
+    /* Adjust height for smaller screens */
+    height: 15vw; /* This value can be larger since the viewport width is smaller */
+  }
+}
+
 .navbar {
   padding: 0;
   background: rgba(
