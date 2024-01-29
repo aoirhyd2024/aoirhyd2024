@@ -13,6 +13,18 @@
   body .OrganizedBy .logo {
     height: 6rem;
     margin-bottom: 2rem; }
+  body section#programme .keynote-panel {
+    padding: 0 1rem 0 1rem; }
+  body section#programme .full-programme {
+    padding: 0 1rem 0 1rem; }
+  body section#programme .keynote-role h5 {
+    text-align: center; }
+  body section#programme .keynote-img {
+    margin-bottom: 1.5rem; }
+  body section#programme thead th, body section#programme tbody tr {
+    font-size: 1rem; }
+  .about-content .notebook {
+    padding: 0.5rem 2rem 0.5rem 2rem; }
   .form-iframe {
     display: none; }
   .form-link {
@@ -20,7 +32,10 @@
     margin-bottom: 2rem; } }
 
 body {
-  background: #FFF8F0 !important; }
+  background: #FFF8F0 !important;
+  align-content: center; }
+  body .hero-area-bg {
+    height: 37rem; }
   body .aoir-logo {
     padding: 0 0 0 5rem; }
     body .aoir-logo .aoir-img {
@@ -58,6 +73,15 @@ body {
     font-size: 1rem; }
   body .col-md-12 {
     padding: 0 1.5rem 0 1.5rem; }
+  body .OrganizedBy {
+    text-align: center;
+    padding-top: 5rem; }
+    body .OrganizedBy h5 {
+      margin-bottom: 2rem; }
+    body .OrganizedBy .logo {
+      padding: 0 2rem 0 2rem;
+      width: auto;
+      height: 10rem; }
   body .notebook {
     background: white;
     padding: 3rem; }
@@ -67,26 +91,79 @@ body {
         list-style: circle; }
     body .notebook h5 {
       text-align: left; }
+  body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.8rem; }
+    body table th, body table td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px; }
+    body table th {
+      background-color: #763131; }
+    body table .panel {
+      font-size: 1.2rem; }
+      body table .panel .subtitle {
+        margin: 0; }
+    body table .break {
+      background-color: #a07777; }
+    body table thead {
+      color: white; }
 
 .navbar {
   height: auto; }
 
 .navbar-collapse .navbar-nav .nav-link {
-  color: #4f0505; }
+  color: #4f0505;
+  padding-left: 1.5rem; }
   .navbar-collapse .navbar-nav .nav-link:hover {
     color: #a07777; }
 
 .head-title {
   padding-top: 2rem; }
 
-.OrganizedBy .logo {
-  padding: 0 2rem 0 2rem;
-  width: auto;
-  height: 10rem; }
-
 .form-link {
   display: none; }
+
+section#submit .form-iframe {
+  height: 140rem; }
 
 section#contact {
   text-align: center;
   margin-bottom: 2rem; }
+
+section#programme .keynote-panel {
+  padding: 6rem 7rem 0rem 7rem; }
+
+section#programme .full-programme {
+  padding: 6rem 5rem 0 5rem; }
+
+.keynote-members .keynote-member {
+  margin: 2rem 0 2rem 0;
+  min-height: 15rem; }
+  .keynote-members .keynote-member p {
+    font-size: 0.8rem; }
+
+.keynote-members .keynote-member-left .keynote-bio p {
+  text-align: left; }
+
+.keynote-members .keynote-member-left .keynote-role h5 {
+  text-align: left; }
+
+.keynote-members .keynote-member-right .keynote-bio p {
+  text-align: right; }
+
+.keynote-members .keynote-member-right .keynote-role h5 {
+  text-align: right; }
+
+.keynote-member .keynote-img {
+  width: 15rem;
+  clip-path: circle();
+  margin: 0 2rem 0 2rem; }
+
+.keynote-member.keynote-member-left .keynote-img {
+  float: left; }
+
+.keynote-member.keynote-member-right .keynote-img {
+  float: right; }

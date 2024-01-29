@@ -38,6 +38,32 @@ $shit-pink2: #ff4d79;
 				margin-bottom: 2rem;
 			}
 		}
+		
+		section#programme {
+			.keynote-panel {
+				padding: 0 1rem 0 1rem;
+			}
+	
+			.full-programme {
+				padding: 0 1rem 0 1rem;
+			}
+			
+			.keynote-role h5 {
+				text-align: center; 
+			}
+			
+			.keynote-img {
+				margin-bottom: 1.5rem;
+			}
+			
+			thead th, tbody tr {
+				font-size: 1rem;
+			}
+		}
+	}
+	
+	.about-content .notebook {
+		padding: 0.5rem 2rem 0.5rem 2rem;
 	}
 	
 	.form-iframe {
@@ -52,6 +78,11 @@ $shit-pink2: #ff4d79;
 
 body {
 	background: $floral-white !important;
+	align-content: center;
+		
+	.hero-area-bg {
+		height: 37rem;
+	}
 	
 	.aoir-logo {
 	
@@ -122,6 +153,22 @@ body {
 		padding: 0 1.5rem 0 1.5rem;
 	}
 	
+	.OrganizedBy 
+	{				
+		text-align: center;
+		padding-top: 5rem;
+		
+		h5 {
+			margin-bottom: 2rem;
+		}
+		
+		.logo {
+			padding: 0 2rem 0 2rem;
+			width: auto;
+			height: 10rem;
+		}
+	}
+	
 	.notebook {
 		background: white;
 		padding: 3rem;
@@ -138,6 +185,39 @@ body {
 			text-align: left; 
 		}
 	}
+	
+	table {
+        width: 100%;
+        border-collapse: collapse;
+		margin-top: 20px;
+		font-size: 0.8rem;
+		
+		th, td {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		}
+
+		th {
+			background-color: $brick-red;
+		}
+		
+		.panel {
+			font-size: 1.2rem;
+			
+			.subtitle {
+				margin: 0;
+			}
+		}
+		
+		.break {	
+			background-color: $dusty-rose;
+		}
+		
+		thead {
+			color: white;
+		}
+    }
 }
 
 .navbar {
@@ -146,6 +226,7 @@ body {
 
 .navbar-collapse .navbar-nav .nav-link {
 	color: $maroon;
+	padding-left: 1.5rem;
 	
 	&:hover {
 		color: $dusty-rose; 
@@ -156,17 +237,75 @@ body {
 	padding-top: 2rem;
 }
 
-.OrganizedBy .logo {
-	padding: 0 2rem 0 2rem;
-	width: auto;
-	height: 10rem;
-}
-
 .form-link {
 	display: none;
+}
+
+section#submit {
+	.form-iframe {
+		height: 140rem;
+	}
 }
 
 section#contact {
 	text-align: center;
 	margin-bottom: 2rem;
 }
+
+section#programme {
+	.keynote-panel {
+		padding: 6rem 7rem 0rem 7rem;
+	}
+	
+	.full-programme {
+		padding: 6rem 5rem 0 5rem;
+	}
+}
+
+.keynote-members {
+	.keynote-member {
+		margin: 2rem 0 2rem 0;
+		min-height: 15rem;
+		
+		p {
+			font-size: 0.8rem;
+		}
+	}
+	
+	.keynote-member-left {
+		.keynote-bio p {
+			text-align: left;
+		}
+	
+		.keynote-role h5 {
+			text-align: left; 
+		}
+	}
+	
+	.keynote-member-right {
+		.keynote-bio p {
+			text-align: right;
+		}
+	
+		.keynote-role h5 {
+			text-align: right; 
+		}
+	}
+}
+
+.keynote-member {
+	.keynote-img {
+		width: 15rem;
+		clip-path: circle();
+		margin: 0 2rem 0 2rem; 
+	}
+	
+	&.keynote-member-left .keynote-img {
+		float: left;
+	}
+
+	&.keynote-member-right .keynote-img {
+		float: right;
+	}
+}
+
