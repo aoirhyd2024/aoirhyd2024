@@ -274,6 +274,10 @@ section#programme {
 		p {
 			font-size: 0.8rem;
 		}
+		
+		.keynote-role {
+			padding-top: 1rem;
+		}
 	}
 	
 	.keynote-member-left {
@@ -281,7 +285,7 @@ section#programme {
 			text-align: left;
 		}
 	
-		.keynote-role h5 {
+		.keynote-role h5, h6 {
 			text-align: left; 
 		}
 	}
@@ -291,7 +295,7 @@ section#programme {
 			text-align: right;
 		}
 	
-		.keynote-role h5 {
+		.keynote-role h5, h6 {
 			text-align: right; 
 		}
 	}

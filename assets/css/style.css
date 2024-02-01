@@ -147,17 +147,19 @@ section#programme .programme-table .panel-time {
   min-height: 15rem; }
   .keynote-members .keynote-member p {
     font-size: 0.8rem; }
+  .keynote-members .keynote-member .keynote-role {
+    padding-top: 1rem; }
 
 .keynote-members .keynote-member-left .keynote-bio p {
   text-align: left; }
 
-.keynote-members .keynote-member-left .keynote-role h5 {
+.keynote-members .keynote-member-left .keynote-role h5, .keynote-members .keynote-member-left h6 {
   text-align: left; }
 
 .keynote-members .keynote-member-right .keynote-bio p {
   text-align: right; }
 
-.keynote-members .keynote-member-right .keynote-role h5 {
+.keynote-members .keynote-member-right .keynote-role h5, .keynote-members .keynote-member-right h6 {
   text-align: right; }
 
 .keynote-member .keynote-img {
