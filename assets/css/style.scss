@@ -82,6 +82,15 @@ body {
 		
 	.hero-area-bg {
 		height: 37rem;
+		
+		.btn {
+			background: $floral-white;
+			color: $brick-red;
+			
+			&:hover {
+				background: $cream;
+			}
+		}
 	}
 	
 	.aoir-logo {

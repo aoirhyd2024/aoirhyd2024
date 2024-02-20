@@ -36,6 +36,11 @@ body {
   align-content: center; }
   body .hero-area-bg {
     height: 37rem; }
+    body .hero-area-bg .btn {
+      background: #FFF8F0;
+      color: #763131; }
+      body .hero-area-bg .btn:hover {
+        background: #f9d4af; }
   body .aoir-logo {
     padding: 0 0 0 5rem; }
     body .aoir-logo .aoir-img {
