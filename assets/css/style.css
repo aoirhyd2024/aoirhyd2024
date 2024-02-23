@@ -1,20 +1,31 @@
 @media screen and (max-width: 800px) {
   body p, body li {
     font-size: 0.8rem !important; }
+  body h3 {
+    font-size: 1.7rem !important;
+    margin-top: 2rem; }
+  body h4 {
+    font-size: 1.2rem !important; }
+  body h5 {
+    font-size: 0.9rem !important; }
   body .navbar {
     height: auto; }
+    body .navbar .navbar-brand img {
+      width: 10rem; }
   body .aoir-logo .aoir-img {
     height: auto !important;
     width: 80%; }
+  body section .container {
+    padding: 3rem 1rem 3rem 1rem; }
   body .OrganizedBy .logos {
-    width: 100%;
+    width: 80%;
     display: block;
     text-align: center; }
   body .OrganizedBy .logo {
-    height: 6rem;
+    height: 6rem !important;
     margin-bottom: 2rem; }
   body section#programme .keynote-panel {
-    padding: 0 1rem 0 1rem; }
+    padding: 1rem 1rem 0 1rem; }
   body section#programme .full-programme {
     padding: 0 1rem 0 1rem; }
   body section#programme .keynote-role h5 {
@@ -22,7 +33,7 @@
   body section#programme .keynote-img {
     margin-bottom: 1.5rem; }
   body section#programme thead th, body section#programme tbody tr {
-    font-size: 1rem; }
+    font-size: 0.7rem; }
   .about-content .notebook {
     padding: 0.5rem 2rem 0.5rem 2rem; }
   .form-iframe {
@@ -99,13 +110,22 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    font-size: 0.8rem; }
+    font-size: 1rem; }
     body table th, body table td {
       border: 1px solid #dddddd;
       text-align: left;
       padding: 8px; }
     body table th {
       background-color: #763131; }
+    body table .table-highlight {
+      background-color: #a07777;
+      color: white; }
+    body table .panel-time {
+      width: 15%; }
+    body table .panel-desc {
+      width: 65%; }
+    body table .panel-speakers {
+      width: 20%; }
     body table .panel {
       font-size: 1.2rem; }
       body table .panel .subtitle {
@@ -151,10 +171,13 @@ section#contact {
 	}
 }*/
 section .container {
-  padding: 6rem 7rem 0rem 7rem; }
+  padding: 6rem 5rem 0rem 7rem; }
 
 section .keynote-panel {
   padding-top: 4rem; }
+
+section.section-padding {
+  padding: 0rem 0 0 0; }
 
 .keynote-members .keynote-member {
   margin: 2rem 0 2rem 0;

@@ -14,9 +14,26 @@ $shit-pink2: #ff4d79;
 		p, li {
 			font-size: 0.8rem !important;
 		}
+		
+		h3 {
+			font-size: 1.7rem !important;
+			margin-top: 2rem;
+		}
+		
+		h4 {
+			font-size: 1.2rem !important;
+		}
+		
+		h5 {
+			font-size: 0.9rem !important;
+		}
 	
 		.navbar {
 			height: auto;
+			
+			.navbar-brand img {
+				width: 10rem;
+			}
 		}
 		
 		.aoir-logo {
@@ -26,22 +43,26 @@ $shit-pink2: #ff4d79;
 			}
 		}
 		
+		section .container {
+			padding: 3rem 1rem 3rem 1rem;
+		}
+		
 		.OrganizedBy {
 			.logos {
-				width: 100%;
+				width: 80%;
 				display: block;
 				text-align: center;
 			}
 			
 			.logo {
-				height: 6rem;
+				height: 6rem !important;
 				margin-bottom: 2rem;
 			}
 		}
 		
 		section#programme {
 			.keynote-panel {
-				padding: 0 1rem 0 1rem;
+				padding: 1rem 1rem 0 1rem;
 			}
 	
 			.full-programme {
@@ -57,7 +78,7 @@ $shit-pink2: #ff4d79;
 			}
 			
 			thead th, tbody tr {
-				font-size: 1rem;
+				font-size: 0.7rem;
 			}
 		}
 	}
@@ -197,7 +218,7 @@ body {
         width: 100%;
         border-collapse: collapse;
 		margin-top: 20px;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		
 		th, td {
 			border: 1px solid #dddddd;
@@ -207,6 +228,23 @@ body {
 
 		th {
 			background-color: $brick-red;
+		}
+		
+		.table-highlight {
+			background-color: $dusty-rose;
+			color: white;
+		}
+		
+		.panel-time {
+			width: 15%;
+		}
+		
+		.panel-desc {
+			width: 65%;
+		}
+		
+		.panel-speakers {
+			width: 20%;
 		}
 		
 		.panel {
@@ -275,11 +313,15 @@ section#contact {
 
 section {
 	.container {
-		padding: 6rem 7rem 0rem 7rem;
+		padding: 6rem 5rem 0rem 7rem;
 	}
 	
 	.keynote-panel {
 		padding-top: 4rem;
+	}
+	
+	&.section-padding {
+		padding: 0rem 0 0 0;
 	}
 }
 
