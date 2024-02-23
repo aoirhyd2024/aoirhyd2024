@@ -79,8 +79,7 @@ body {
   body .col-md-12 {
     padding: 0 1.5rem 0 1.5rem; }
   body .OrganizedBy {
-    text-align: center;
-    padding-top: 5rem; }
+    text-align: center; }
     body .OrganizedBy h5 {
       margin-bottom: 2rem; }
     body .OrganizedBy .logo {
@@ -138,14 +137,24 @@ section#contact {
   text-align: center;
   margin-bottom: 2rem; }
 
-section#programme .keynote-panel {
+/*section#programme {
+	.keynote-panel {
+		padding: 6rem 7rem 0rem 7rem;
+	}
+	
+	.full-programme {
+		padding: 6rem 5rem 0 5rem;
+	}
+	
+	.programme-table .panel-time {
+		width: 20%;
+	}
+}*/
+section .container {
   padding: 6rem 7rem 0rem 7rem; }
 
-section#programme .full-programme {
-  padding: 6rem 5rem 0 5rem; }
-
-section#programme .programme-table .panel-time {
-  width: 20%; }
+section .keynote-panel {
+  padding-top: 4rem; }
 
 .keynote-members .keynote-member {
   margin: 2rem 0 2rem 0;
@@ -169,11 +178,19 @@ section#programme .programme-table .panel-time {
 
 .keynote-member .keynote-img {
   width: 15rem;
-  clip-path: circle();
-  margin: 0 2rem 0 2rem; }
+  clip-path: circle(); }
 
 .keynote-member.keynote-member-left .keynote-img {
-  float: left; }
+  float: left;
+  margin: 0 2rem 0 0; }
 
 .keynote-member.keynote-member-right .keynote-img {
-  float: right; }
+  float: right;
+  margin: 0 0 0 2rem; }
+
+.team-name {
+  text-align: left;
+  margin-top: 2rem; }
+
+.team-list {
+  margin-top: 2rem; }

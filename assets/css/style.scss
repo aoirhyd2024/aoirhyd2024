@@ -164,9 +164,7 @@ body {
 	
 	.OrganizedBy 
 	{				
-		text-align: center;
-		padding-top: 5rem;
-		
+		text-align: center;		
 		h5 {
 			margin-bottom: 2rem;
 		}
@@ -261,7 +259,7 @@ section#contact {
 	margin-bottom: 2rem;
 }
 
-section#programme {
+/*section#programme {
 	.keynote-panel {
 		padding: 6rem 7rem 0rem 7rem;
 	}
@@ -272,6 +270,16 @@ section#programme {
 	
 	.programme-table .panel-time {
 		width: 20%;
+	}
+}*/
+
+section {
+	.container {
+		padding: 6rem 7rem 0rem 7rem;
+	}
+	
+	.keynote-panel {
+		padding-top: 4rem;
 	}
 }
 
@@ -314,15 +322,25 @@ section#programme {
 	.keynote-img {
 		width: 15rem;
 		clip-path: circle();
-		margin: 0 2rem 0 2rem; 
 	}
 	
 	&.keynote-member-left .keynote-img {
 		float: left;
+		margin: 0 2rem 0 0; 
+
 	}
 
 	&.keynote-member-right .keynote-img {
 		float: right;
+		margin: 0 0 0 2rem; 
 	}
 }
 
+.team-name {
+	text-align: left;
+	margin-top: 2rem;
+}
+
+.team-list {
+	margin-top: 2rem;
+}
